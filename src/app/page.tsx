@@ -15,7 +15,7 @@ export default function Home() {
           />
         </figure>
       </div>
-      <div className="text-white relative -mt-[400px]">
+      <div className="text-white relative -mt-[400px] lg:mt-0">
         <h1 className="font-[100] text-[40px] lg:text-[80px] z-[100000] relative uppercase">
           <span className="font-bold">estamos en</span> <br /> desarrollo
         </h1>
