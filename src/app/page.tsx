@@ -4,7 +4,7 @@ import { Lines } from "./components/Lines";
 export default function Home() {
   return (
     <main className="grid lg:flex text-center overflow-hidden min-h-screen items-center justify-center lg:gap-[120px] relative">
-      <div className="flex justify-center -mt-[140px] lg:mb-0 lg:mt-0">
+      <div className="flex justify-center -mt-[100px] lg:mb-0 lg:mt-0">
         <figure className="lg:w-[300px] w-[200px]">
           <Image
             src={"/logo.png"}
