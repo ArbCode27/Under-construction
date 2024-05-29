@@ -15,17 +15,17 @@ export default function Home() {
           />
         </figure>
       </div>
-      <div className="text-white relative -mt-[400px] lg:mt-0">
+      <div className="flex flex-col items-center lg:items-start text-white relative -mt-[300px] lg:mt-0">
         <h1 className="font-bold text-[40px] lg:text-[80px] z-[100000] relative uppercase">
-          estamos en <br />{" "}
-          <span className="font-[100] lg:-ml-8 block -mt-8">desarrollo</span>
+          estamos en <br />
+          <span className="font-[100] lg:-ml-8 block lg:-mt-8">desarrollo</span>
         </h1>
         <p className="text-[14px] lg:text-left lg:max-w-[500px] max-w-[280px] relative z-[1000]">
           Mientras finalizamos los últimos detalles de nuestra página, te
           invitamos a comunicarte a nuestro contacto en WhatsApp. ¡Estamos
           disponibles para ofrecerte una atención personalizada!
         </p>
-        <div className="relative w-[150px]">
+        <div className="relative w-[150px] h-[42px]">
           <a
             href="https://w.app/univfeel"
             className="w-[99%] relative bg-[#1B1D21] block border-solid p-2 mt-4 rounded-full z-[10000] overflow-hidden"
