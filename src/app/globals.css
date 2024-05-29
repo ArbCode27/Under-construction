@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.border-button{
+  display: block;
+  position: absolute;
+  width: 151px;
+  height: 105%;
+  top: -1px;
+  left: calc(50% - 76px);
+  border-radius: 40px;
+  z-index: -10;
+  background: rgb(182,182,182);
+  background: linear-gradient(135deg, rgba(182,182,182,1) 0%, rgba(92,92,92,1) 100%);
+}

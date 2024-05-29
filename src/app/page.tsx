@@ -16,13 +16,24 @@ export default function Home() {
         </figure>
       </div>
       <div className="text-white relative -mt-[400px] lg:mt-0">
-        <h1 className="font-[100] text-[40px] lg:text-[80px] z-[100000] relative uppercase">
-          <span className="font-bold">estamos en</span> <br /> desarrollo
+        <h1 className="font-bold text-[40px] lg:text-[80px] z-[100000] relative uppercase">
+          estamos en <br />{" "}
+          <span className="font-[100] lg:-ml-8 block -mt-8">desarrollo</span>
         </h1>
-        <p className="text-[14px] lg:max-w-[380px] max-w-[280px] relative z-[1000]">
-          selecciona el servicio de preferencia y llena el formulario para poder
-          tener una reunion lo mas pronto posible.
+        <p className="text-[14px] lg:text-left lg:max-w-[500px] max-w-[280px] relative z-[1000]">
+          Mientras finalizamos los últimos detalles de nuestra página, te
+          invitamos a comunicarte a nuestro contacto en WhatsApp. ¡Estamos
+          disponibles para ofrecerte una atención personalizada!
         </p>
+        <div className="relative w-[150px]">
+          <a
+            href="https://w.app/univfeel"
+            className="w-[99%] relative bg-[#1B1D21] block border-solid p-2 mt-4 rounded-full z-[10000] overflow-hidden"
+          >
+            WhatsApp
+          </a>
+          <div className="border-button"></div>
+        </div>
         <div className="absolute -bottom-[100px] -right-[100px]">
           <Lines />
         </div>
