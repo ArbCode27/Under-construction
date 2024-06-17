@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         <div className="relative w-[150px] h-[42px]">
           <a
-            href="https://w.app/univfeel"
+            href="https://wa.me/message/Y6UNSTUFLELBP1"
             className="w-[99%] relative bg-[#1B1D21] block border-solid p-2 mt-4 rounded-full z-[10000] overflow-hidden"
           >
             WhatsApp
